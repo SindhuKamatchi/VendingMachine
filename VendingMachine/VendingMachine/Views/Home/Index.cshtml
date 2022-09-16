@@ -1,0 +1,119 @@
+﻿
+@model VendingMachine.Models.VendingModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+@using (Html.BeginForm("Index"))
+{
+    <div class="text-center">
+    <h1 class="display-4"></h1>
+    <div class="container-fluid">
+   <div class="row">
+      <div class="col-2">
+         <div class="card">
+            <img src="Images/cola.PNG" class="img-fluid" alt="Avatar">
+             <p class="card-text">£1</p>
+              <button type="button" class="btn btn-info" id="1" name="1" value="Cola">Cola</button>
+         </div> 
+      </div>
+      <div class="col-2">
+         <div class="card">
+            <img src="Images/Crisp.PNG" class="img-fluid" alt="Avatar">
+             <p class="card-text">50p</p>
+             <button type="button" class="btn btn-info" id="2" name="2" value="Crisp">Crisp</button> 
+         </div>
+      </div>
+         <div class="col-2">
+         <div class="card">
+            <img src="Images/Choclate.PNG" class="img-fluid" alt="Avatar">
+             <p class="card-text">65p</p>
+             <button type="button" class="btn btn-info" id="3" name="3" value="Choclate">Choclate</button>
+         </div>
+      </div>
+
+   </div>
+</div>
+     </div>            
+        <div >
+            <div >
+                <h3>Please select the coins</h3>
+   <input type="checkbox"  id="fivep"  name="money" value=5 >
+              <label  for="TotalAmount">5p</label>
+
+       
+         
+              <input type="checkbox"  id="tenp" name="money" value=10 >
+              <label for="TotalAmount">10p</label>
+        
+         
+              <input type="checkbox" id="twentyp" name="money" value=20 >
+              <label  for="TotalAmount">20p</label>
+        
+              <input type="checkbox"  id="fiftyp"  name="money" value=50 >
+              <label  for="TotalAmount">50p</label>
+      
+              <input type="checkbox"  id="onepound" name="money" value=100 >
+              <label  for="TotalAmount">£1</label>
+     
+              <input type="checkbox" class="form-check-input" id="twopound"  name="money" value=200 >
+              <label  for="TotalAmount">£2</label>
+
+ </div>
+                </div>
+
+
+    <div>
+         <h4>Total Amount</h4>
+  @*      <label for="Amount">Total Amount</label>*@
+        @Html.TextBoxFor(m=>m.Amount,"Total Amount")
+    </div>
+    <div>
+         <h4>Selected Product</h4>
+         @*<label for="Code">Selected Product</label>*@
+         @Html.TextBoxFor(m=>m.code)
+    </div>
+   
+
+     <div>
+         <input type="submit" class="btn btn-primary" value="Buy Snack"/>
+    </div>
+
+    <div>
+          @ViewBag.SucessMessage  
+    </div>
+
+
+}
+
+
+<script type="text/javascript"> 
+ 
+    $('input:checkbox').change(function ()
+{
+      var total = 0;
+      $('input:checkbox:checked').each(function(){ // iterate through each checked element.
+        total += isNaN(parseInt($(this).val())) ? 0 : parseInt($(this).val());
+      });     
+      $("#Amount").val(total);
+
+});
+
+$("button").click(function() {
+    var code = $(this).val();
+    $("#code").val(code);
+});
+
+
+
+    $('input:button').change(function ()
+{
+      var code = isNaN(parseInt($(this).val())) ? 0 : parseInt($(this).val());
+           
+      $("#code").val(total);
+
+});
+
+
+</script>
