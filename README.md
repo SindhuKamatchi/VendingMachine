@@ -1,6 +1,6 @@
 # VendingMachine
 
-Developer Notes:
+#Developer Notes:
 
 This project contains 3 solutions 
       1. Web layer - There is lot of improvment needs to be done in this layer , so far I have devloped this just to collect user data
