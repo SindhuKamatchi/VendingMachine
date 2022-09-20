@@ -6383,11 +6383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj",
+      "projectUniqueName": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj",
       "projectName": "VendingMachine.Services",
-      "projectPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj",
+      "projectPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj",
       "packagesPath": "C:\\Users\\E1205290\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine.Services\\obj\\",
+      "outputPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\E1205290\\AppData\\Roaming\\NuGet\\NuGet.Config",

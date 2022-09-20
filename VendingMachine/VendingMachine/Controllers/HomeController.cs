@@ -49,7 +49,7 @@ namespace VendingMachine.Controllers
                             string apiResponse = await response.Content.ReadAsStringAsync();
                             vendingModel.VendingResponse = apiResponse;
                             Models.VendingResponse vendingResponse = JsonConvert.DeserializeObject<Models.VendingResponse>(apiResponse);
-                            ViewBag.SucessMessage = "API Response" + "-" + apiResponse;
+                            ViewBag.SucessMessage = apiResponse;
                         }
                     }
                 }

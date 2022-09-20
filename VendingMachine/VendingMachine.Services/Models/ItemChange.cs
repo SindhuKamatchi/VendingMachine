@@ -4,7 +4,5 @@
     public class ItemChange
     {
         public int Number { get; set; }
-
- 
     }
 }

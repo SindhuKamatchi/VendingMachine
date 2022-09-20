@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {}
+    "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj": {
+    "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj",
+        "projectUniqueName": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj",
         "projectName": "VendingMachine.Services",
-        "projectPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj",
+        "projectPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj",
         "packagesPath": "C:\\Users\\E1205290\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine.Services\\obj\\",
+        "outputPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E1205290\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
+    "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+        "projectUniqueName": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
         "projectName": "VendingMachine",
-        "projectPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+        "projectPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
         "packagesPath": "C:\\Users\\E1205290\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine\\obj\\",
+        "outputPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E1205290\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,8 +107,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj": {
-                "projectPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\Vending Machine\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj"
+              "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj": {
+                "projectPath": "C:\\Users\\E1205290\\OneDrive - Santander Office 365\\Sindhu\\UnitedHealthGroup\\VendingMachine\\VendingMachine.Services\\VendingMachine.Services.csproj"
               }
             }
           }
